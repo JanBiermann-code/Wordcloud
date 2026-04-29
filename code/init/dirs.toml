@@ -6,7 +6,7 @@
 ##.......... directories
 
 [project]
-  dir_prj = "C:/Projects/wordcloud"
+  dir_prj = ""
 
 [base]
   dir_code     = "{dir_prj}/code"
