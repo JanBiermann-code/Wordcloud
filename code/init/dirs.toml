@@ -1,0 +1,28 @@
+## config directories
+
+##.......... comments:
+## dirs.toml is sourced from init.R
+
+##.......... directories
+
+[project]
+  dir_prj = "C:/Projects/wordcloud"
+
+[base]
+  dir_code     = "{dir_prj}/code"
+  dir_data     = "{dir_prj}/data"
+  dir_plot     = "{dir_prj}/plot"
+  
+[init]
+  dir_code_init     = "{dir_code}/init"
+  dir_code_init_src = "{dir_code}/init/src"
+
+[wordcloud]
+  dir_code_wordcloud     = "{dir_code}/src"
+  dir_plot_wordcloud     = "{dir_plot}/wordcloud"
+  dir_data_wordcloud_in  = "{dir_data}/wordcloud/WordCloud_in"
+  dir_data_wordcloud_out = "{dir_data}/wordcloud/WordCloud_out"
+  dir_data_glove         = "{dir_data}/wordcloud/GloVe"
+  
+##.......... done
+

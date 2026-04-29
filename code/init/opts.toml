@@ -1,0 +1,14 @@
+## config options
+
+##.......... comments:
+## opts.toml is sourced from init.R
+
+##.......... options
+
+[init]
+  silent = false      ## printing paths and auxilliary info
+  assign_opt = false  ## assigning options to R env
+  assign_dir = false  ## assigning directories to R env
+
+##.......... done
+
