@@ -5,7 +5,7 @@ cat("\n## WordCloud app\n")
 rm(list=ls()); cat("Renv cleaned \n")
 
 ##..... Initialization
-# setwd("C:/Projects/wordcloud/code")
+# setwd("")
 source(list.files(path = getwd(), pattern = "^init.R$", 
                   recursive = T, full.names = T, ignore.case = F))
 
